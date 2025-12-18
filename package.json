@@ -1,0 +1,9 @@
+{
+  "name": "bingemate",
+  "private": true,
+  "scripts": {
+    "install-all": "cd BingeMate-Frontend && npm install && cd ../BingeMate-Backend && npm install",
+    "build": "cd BingeMate-Frontend && npm run build",
+    "start": "node BingeMate-Backend/server.js"
+  }
+}
